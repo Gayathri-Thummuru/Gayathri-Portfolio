@@ -24,7 +24,6 @@ A responsive and clean personal portfolio website built using **HTML**, **CSS**,
 
 ## 📸 Screenshots
 
-|--------------|
 (![portfolio1](https://github.com/user-attachments/assets/41be16b7-dfc5-48f0-8d08-3e08c7a41eb3)
 ![portfolio2](https://github.com/user-attachments/assets/105c30d3-5efc-4f55-9d6f-63cc74aa04a5)
 ![portfolio3](https://github.com/user-attachments/assets/d433fc05-f9a4-462d-b439-4a403e1fa9a6)
