@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Portfolio</div>
+            <div class="nav-links">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="theme-toggle">
+                <button id="theme-toggle-btn">🌙</button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <div class="profile-image">
+                <img src="images/profile.jpg" alt="Gayathri Thummuru">
+            </div>
+            <h1>Hi, I'm Gayathri Thummuru</h1>
+            <p>Full Stack Developer</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="cta-button">Get in Touch</a>
+                <a href="https://drive.google.com/file/d/1BDgDqv9Ep6_3xOWUmuCA6jalBR9hrBaF/view?usp=drive_link" class="resume-button" target="_blank">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+
+            <p>Aspiring Software Developer with a strong foundation in programming and problem-solving. Passionate about
+              building efficient, scalable, and innovative software solutions. Seeking an opportunity to apply my skills in a dynamic
+              environment and contribute to impactful projects while continuously learning and growing in the field.
+              </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skills-category">
+                <h3>Technical Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">Java</div>
+                    <div class="skill-item">Python</div>
+                    <div class="skill-item">SQL</div>
+                    <div class="skill-item">HTML5</div>
+                    <div class="skill-item">CSS3</div>
+                    <div class="skill-item">JavaScript</div>
+                </div>
+            </div>
+            <div class="skills-category">
+                <h3>Soft Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">Problem Solving</div>
+                    <div class="skill-item">Team Collaboration</div>
+                    <div class="skill-item">Communication</div>
+                    <div class="skill-item">Time Management</div>
+                    <div class="skill-item">Adaptability</div>
+                    <div class="skill-item">Leadership</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="images/project1.png" alt="Project 1">
+                <h3>Diet Corner</h3>
+                <p>• Designed and developed a user-friendly web application for generating personalized diet plans using HTML,
+                  CSS, JavaScript, and PHP.</p>
+                 <p>• Incorporated features for customization and tracking, enhancing user engagement by 35%.</p>
+                <p>• Optimized the application for scalability and faster performance on desktop devices, reducing load times by
+                  40%.</p>
+                <a href="https://github.com/Gayathri-Thummuru/DietCorner" class="project-link" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="images/project2.png" alt="Project 2">
+                <h3>GridAI</h3>
+                <p>• Designed and developed a cutting-edge virtual meeting platform using modern web technologies (React, Next.js, Node.js, and WebRTC) with Clerk for secure authentication.</p>
+                  <p> • Implemented personal meeting rooms, instant AI calls, and meeting history tracking, increasing user engagement by 40%.</p>
+                  <p>• Optimized the platform for low-latency video conferencing and scalable performance, reducing connection delays by 50%.</p>
+                <a href="https://github.com/Gayathri-Thummuru/AiPoweredPlatform" class="project-link" target="_blank">View Project</a>
+            </div>
+            <!-- <div class="project-card">
+                <img src="images/project3.jpg" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>Description of project 3</p>
+                <a href="#" class="project-link">View Project</a>
+            </div> -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <input type="text" id="name" required placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" required placeholder="Your Email">
+            </div>
+            <div class="form-group">
+                <textarea id="message" required placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/Gayathri-Thummuru" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/gayathrithummuru/" target="_blank">LinkedIn</a>
+            <a href="mailto:gayathrithummuru0@gmail.com?subject=Portfolio%20Inquiry&body=Hello%20Gayathri,%0D%0A%0D%0AI%20found%20your%20portfolio%20and%20would%20like%20to%20connect.">Email</a>
+        </div>
+        <p>&copy; 2025 Gayathri Thummuru. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
