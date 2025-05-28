@@ -34,7 +34,7 @@ A responsive and clean personal portfolio website built using **HTML**, **CSS**,
 To run the project locally:
 
 ```bash
-git clone (https://github.com/Gayathri-Thummuru/Gayathri-Portfolio)
+git clone https://github.com/Gayathri-Thummuru/Gayathri-Portfolio
 cd Gayathri-portfolio
 open index.html
 
