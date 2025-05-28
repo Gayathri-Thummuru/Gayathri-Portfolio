@@ -84,7 +84,7 @@ const themeToggleBtn = document.getElementById('theme-toggle-btn');
 const htmlElement = document.documentElement;
 
 // Check for saved theme preference
-const savedTheme = localStorage.getItem('theme') || 'light';
+const savedTheme = localStorage.getItem('theme') || 'dark';
 htmlElement.setAttribute('data-theme', savedTheme);
 updateThemeIcon(savedTheme);
 
